@@ -1,0 +1,30 @@
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.myvideo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    width: 30%;
+    margin-left: 150px;
+    margin-top: 80px;
+    padding: 30px;
+}
+.uservideo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    width: 30%;
+    margin-left: 200px;
+    margin-top: 80px;
+    padding: 30px;
+}
+.andr{
+    height: 120%;
+    width: auto;
+}
