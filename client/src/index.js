@@ -2,6 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import {ThemeProvider} from '@material-ui/styles'
 import App from './App';
+import { ContextProvider } from "./SocketContext";
+
 import './styles.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <ContextProvider>
+        <App />
+    </ContextProvider>
+    ,document.getElementById('root')
+);

@@ -1,10 +1,8 @@
 import React from 'react'
-
+import { SocketContext } from '../SocketContext'
 const Videoplayer = () => {
   return (
-    <div>
-      video player
-    </div>
+    <video playsInline muted ref={null} autoPlay/>
   )
 }
 
